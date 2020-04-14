@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+
+
+
+    <Button
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/GoogleBTN"
+        android:text="Google"
+        android:layout_centerInParent="true"
+        android:background="@color/colorAccent"
+        android:textColor="@color/colorPrimaryDark"/>
+
+    <Button
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/FaceBookBTN"
+        android:text="FaceBook"
+        android:layout_centerInParent="true"
+
+        android:background="@color/colorAccent"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_below="@id/GoogleBTN"
+        android:layout_marginTop="15dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ResetLinkTV"
+        android:layout_below="@id/FaceBookBTN"
+        android:text="Reset"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:textColor="#F80b4A"/>
+
+
+
+</RelativeLayout>
